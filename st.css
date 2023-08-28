@@ -15,3 +15,16 @@ div.creds {
 img {
 	width: 100%;
 }
+
+h1 {
+	margin: 0;
+}
+
+@media (max-width: 450px) {
+	body {
+		display: flex;
+		height: 100vh;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
